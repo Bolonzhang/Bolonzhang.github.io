@@ -1,0 +1,32 @@
+#area1 {
+    background-color: teal;
+    background-image: '../photos/fly.png';
+}
+#about_me {
+    
+    width: 200px;
+    height: auto;
+
+    float: left;
+}
+
+
+#head_photo {
+    width: 200px;
+    height: auto;
+}
+
+#self_intro {
+    display: inline-block;
+    float: left;
+    border: 1px dashed black;
+}
+
+#bottom_column {
+    position: absolute;
+    bottom: 0px;
+
+    padding:10px;
+    border: 1px dashed gray;
+    margin:10px auto;
+}
