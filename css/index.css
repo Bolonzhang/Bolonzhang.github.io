@@ -12,7 +12,7 @@
 /* 页头开始 */
 body {
     margin: 0;
-    background: rgb(58, 58, 58);
+    background: white;
 }
 .header{
     height: 90px;
@@ -53,7 +53,7 @@ body {
     color: rgb(195,195,195);
     display: block;
     float: right;
-    margin-right: 20px;
+    margin-right: 13px;
 }
 .header nav a:hover {
     color: white;
@@ -63,7 +63,22 @@ body {
 #main{
 
 }
-#main video {
+#bg-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+/* 备用色彩
+logo蓝色 rgb(9,69,195)
+rgb(51,52,49)
+
+
     display: block;
     float: left;
 
@@ -72,13 +87,6 @@ body {
 
     min-width: 100%;
     min-height: 100%;
-
-}
-
-/* 备用色彩
-logo蓝色 rgb(9,69,195)
-rgb(51,52,49)
-
 */
 
 audio {
