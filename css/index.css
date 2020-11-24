@@ -20,6 +20,7 @@
 /* 页头开始 */
 body {
     margin: 0;
+    background: rgb(58, 58, 58);
 }
 .header{
     height: 90px;
