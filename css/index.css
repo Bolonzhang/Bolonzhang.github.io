@@ -83,5 +83,6 @@ rgb(51,52,49)
 
 audio {
     margin-top: 20px;
+    display: block;
     float: left;
 }
