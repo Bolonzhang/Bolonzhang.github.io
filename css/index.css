@@ -1,12 +1,4 @@
 /* 首页通用样式 */
-.container {
-    width: 1000px;
-    margin: 0 auto;
-    height: 90px;
-
-    background:;
-}
-
 .float-left {
     float: left;
 }
@@ -26,12 +18,13 @@ body {
     height: 90px;
 
     background-color: rgba(8,8,8,0.7);
-    margin: 0;
+
 }
 
 .header .container {
-
-    margin-top: 30px;
+    width: 1000px;
+    margin: 0 auto;
+    height: 90px;
 }
 
 .header .logo a {
@@ -68,10 +61,17 @@ body {
 }
 /* 第一块 */
 #main{
-    margin: 0 auto;
+
 }
 #main video {
-    min-width:100%;
+    display: block;
+    float: left;
+
+    position: relative;
+    top:-25px;
+
+    min-width: 100%;
+    min-height: 100%;
 
 }
 
