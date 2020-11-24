@@ -17,7 +17,7 @@ body {
 .header{
     height: 90px;
 
-    background-color: rgba(8,8,8,0.7);
+    background-color: rgba(8,8,8,0.4);
 
 }
 
@@ -32,6 +32,8 @@ body {
     height: 50px;
     display: block;
     background: url("../photos/logos/bold.svg") no-repeat;
+
+    margin-left: 30px;
 }
 .header .logo a span {
     display:none;
@@ -40,7 +42,7 @@ body {
 .header nav {
     width: 800px;
     height: 100%;
-    margin-top: 25px;
+
 
     float: right;
 }
@@ -50,14 +52,20 @@ body {
     font-size: 30px;
     font-weight: bold;
 
+    height: 65px;
+    padding-top: 25px;
+
+    text-align: center;
+
     color: rgb(195,195,195);
+    
     display: block;
     float: right;
     margin-right: 13px;
 }
 .header nav a:hover {
     color: white;
-    background-color:;
+    background-color: rgba(8,8,8,0.6);
 }
 /* 第一块 */
 #main{
