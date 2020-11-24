@@ -1,56 +1,80 @@
+/* 首页通用样式 */
+.container {
+    width: 600px;
+    margin: 0 auto;
+    height: 90px;
+
+    background:;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+/* 首页通用样式结束 */
+
+/* 页头开始 */
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
 }
-#nav {
-    width: device-width;
-    height: 2em;
-    font-size: 2em;
-    line-height: 2.5;
-}
-#nav li {
-    text-align: center;
-}
-#nav a {
-    text-decoration: none;
+.header{
+    height: 90px;
+
+    background-color: rgba(8,8,8,0.7);
+    margin: 0;
 }
 
-#jump video {
-    min-width:100%;
-    min-height:auto;
+.header .container {
+    margin-top: 30px;
 }
 
-#a1 {
+.header .logo a {
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: url("../photos/logos/bold.svg") no-repeat;
+}
+.header .logo a span {
+    display:none;
+}
+
+.header nav {
     width: 500px;
-    height: 500px;
+    height: 100%;
+    margin-top: 25px;
 
-    background-image: "photos/me2.jpg";
-    /*
-    background-repeat: no-repeat;
-    background-position: 10px auto;
-    background-attachment: fixed;
-    */
+    float: right;
 }
 
-
-/*
-nav {
-    position: absolute;
-    top: 0px;
-    background-color: #fff;
-    margin: none;
-    height:50px;
-}
-nav a{
+.header nav a {
     text-decoration: none;
-    background-color:skyblue;
-    color:white;
-    vertical-align:middle;
+    font-size: 30px;
+    font-weight: bold;
+
+    color: rgb(195,195,195);
+    display: block;
+    float: right;
+    margin-right: 20px;
 }
-nav a:visited{
-    
+.header nav a:hover {
+    color: white;
+    background-color:;
 }
-nav a:hover{
-    background-color:white;
-    color:skyblue;
+/* 第一块 */
+#main{
+    margin: 0 auto;
 }
+#main video {
+    min-width:100%;
+
+}
+
+/* 备用色彩
+logo蓝色 rgb(9,69,195)
+rgb(51,52,49)
+
 */
