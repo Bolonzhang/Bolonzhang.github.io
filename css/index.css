@@ -47,7 +47,7 @@ header nav ul li a {
     text-decoration: none;
 
     font-size: 20px;
-    font-weight: 400; /* normal size */
+    font-weight: 800; /* normal size 400 */
     color: rgb(195,195,195);
     background-color: ;
 
@@ -58,15 +58,16 @@ header nav ul li a {
     
 }
 header nav ul li a:hover {
-    color: black;
+    color: #004198;
+    font-weight: 800;
     background-color: white;
-    border: 2px solid white;
+    border: 2px solid #004198;
 }
 header nav ul .logo {
     background: white;
     
     border-radius: 20px;
-    border: 2px solid rgb(195,195,195);
+    border: 2px solid #004198;
 
     background-image: url("../photos/logos/bolon-db.svg");
     background-repeat: no-repeat;
