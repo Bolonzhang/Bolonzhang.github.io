@@ -63,11 +63,16 @@ header nav ul li a:hover {
     border: 2px solid white;
 }
 header nav ul .logo {
-    background-image: url("../photos/logos/bolon-blue.svg");
-    background-repeat: no-repeat;
-    background-position: 0 -45px;
-    display: inline-block;
+    background: white;
+    
+    border-radius: 20px;
+    border: 2px solid rgb(195,195,195);
 
+    background-image: url("../photos/logos/bolon-db.svg");
+    background-repeat: no-repeat;
+    background-position: 16px -47px;
+
+    display: inline-block;
     width: 150px;
 
     text-indent: -999999px;
