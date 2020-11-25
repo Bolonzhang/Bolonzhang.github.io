@@ -1,7 +1,8 @@
 header nav ul li:last-child a {
-    color: black;
+    border: 2px solid #004198;
+    color: #004198;
 }
 
 body {
-    background-color: red;
+    background-color: ;
 }
