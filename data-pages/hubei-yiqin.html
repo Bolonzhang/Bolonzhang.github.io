@@ -6,16 +6,30 @@
     <link rel="icon" type="image/png" href="../photos/logos/博.png">
     <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
     <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/hubei.js"></script>
+    <style>
+        div#hubeiJieshao {
+            font-size: 20px;
+        }
+        hr {
+            /* margin: auto 0 auto 0; */
+            width: 900px;
+        }
+        div.hubeiDitu, img {
+            padding: 0;
+            margin: 5px auto;
+        }
+    </style>
 
 </head>
 <body>
-    <div>
+    <div id="hubeiJieshao">
         <p>这是我通过Python的pyecharts包做的“湖北省疫情可视化地图”</p>
         <p>资料来源于天行API提供的数据接口</p>
         <p>代码：<a href="https://github.com/Bolonzhang/yiqin" target="_blank">https://github.com/Bolonzhang/yiqin</a></p>
+        <p>👇<strong>点击地图</strong>可查看详细数据</p>
         <hr>
     </div>
-    <div id="20735a18852f4977b37a99dd43c38a38" class="chart-container" style="width:900px; height:500px;"></div>
+    <div id="20735a18852f4977b37a99dd43c38a38" class="chart-container hubeiDtu" style="width:900px; height:500px;"></div>
     <script>
         var chart_20735a18852f4977b37a99dd43c38a38 = echarts.init(
             document.getElementById('20735a18852f4977b37a99dd43c38a38'), 'white', {renderer: 'canvas'});
