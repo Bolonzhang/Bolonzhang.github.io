@@ -15,6 +15,7 @@ header {
 
 header nav {
     padding: 30px;
+    padding-bottom: 0;
 }
 header nav ul {
     margin: 0;
@@ -119,100 +120,99 @@ header nav ul .logo {
     
 }
 /* Header End */
+/* 附加的css */
+header nav ul li:nth-child(3) a {
+    border: 2px solid #004198;
+    color: #004198;
+}
+/* 附加的css结束 */
 
 /* section start */
-section video {
-    width: 100%;
-
-    position: absolute;
-    bottom: 0;
-
-    z-index: -100;
+.figures::before {
+    content: "";
+    clear: both;
+    display: block;
 }
-@media screen and (max-width: 700px) {
-    section video {
+#bg-img {
+    position: absolute;
+    top: 0;
+    z-index: -100;
+
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width:700px) {
+    #bg-img {
         display: none;
     }
 }
 
-section #self-intro {
-    margin: 100px auto auto 200px;
-    padding: 10px;
+.figures {
 
-    width: 350px;
-    height: auto;
+    /* border: 1px solid black; */
 
-    background-color:  rgba(195,195,195,0.4);
-  
-    border-radius: 50px;
-    border: 2px solid #004198;
-
-    text-align: center;
-    font-size: 20px;
-    color: #004198;
-    font-family: cursive, Microsoft YaHei;
+    display: flex;
+    flex-direction: row;
 }
-@media screen and (max-width: 700px) {
 
-    section #self-intro {
-        padding: 0;
-        margin: 10px auto 10px auto;
-        height: 700px;
+.figures .smblock {
+    /* float: left; */
+
+    width: 300px;
+    height: 300px;
+
+    padding: 15px;
+    margin: 30px auto;
+
+    border: 2px solid black;
+    border-radius: 10px;
+
+    background-color: rgba(195,195,195,0.4);
+
+    box-shadow: black 2px 2px 5px;
+}
+@media screen and (max-width:700px) {
+    .figures {
+        margin: 0;
+        display: block;
+    }
+    .figures .smblock {
+        float: left;
+        margin: 20px auto 20px 20px;
     }
 }
-section #self-intro p {
+.figures .smblock a {
+    text-decoration: none;
+    
+    color: black;
+    
+}
+.figures .smblock a img {
+    width: 300px;
+    height: 250px;
+}
+.figures .smblock a figcaption .caption {
+    text-align: center;
+
+    font-size: 24px;
+    line-height: 24px;
+
     padding: 5px;
 }
-section #self-intro p h1 {
-    font-size: 30px;
-    padding: 10px;
-}
-section #self-intro p strong {
-    font-size: 24px;
+.figures .smblock a figcaption .date {
+    text-align: right;
+    /* padding: 5px; */
+
+    font-size: 16px;
+    line-height: 16px;
 }
 
-section #self-intro ul {
-    padding: 0;
+section .smblock a:hover,
+section .smblock:hover {
+    color: #004198;
+    border-color: #004198;
 }
-section #self-intro ul li {
-    list-style-type: none;
-    display: inline-block;
+.smblock img {
+    width: 300px;
 }
-section #self-intro ul li img {
-    width: 50px;
-    height: 50px;
-
-
-}
-section #self-intro ul li img:hover {
-    border-radius: 15px;
-    background-color: white;
-}
-
-/* section start */
-
-/* footer start */
-footer {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-}
-
-footer div p {
-    text-align: center;
-    font-style: italic;
-    font-size: 6px;
-
-    margin: 0;
-    padding: 2px 0;
-    
-    color: white;
-    background-color: rgba(34, 34, 34, 0.6);
-}
-@media screen and (max-width: 700px) {
-    footer {
-        display: none;
-    }
-}
-/* footer start */
+/* section end */
